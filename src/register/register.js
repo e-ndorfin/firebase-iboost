@@ -1,11 +1,12 @@
 const firebaseApp = firebase.initializeApp({
     apiKey: "AIzaSyCREyD51TqXS_bKO08t8tnnfw7tUtGgIjM",
-    authDomain: "iboost-da569.firebaseapp.com",
-    projectId: "iboost-da569",
-    storageBucket: "iboost-da569.appspot.com",
-    messagingSenderId: "1092488327279",
-    appId: "1:1092488327279:web:5a836741f39c5ccf991d9a",
-    measurementId: "G-37YK7NBZVG"
+  authDomain: "iboost-da569.firebaseapp.com",
+  databaseURL: "https://iboost-da569-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "iboost-da569",
+  storageBucket: "iboost-da569.appspot.com",
+  messagingSenderId: "1092488327279",
+  appId: "1:1092488327279:web:5a836741f39c5ccf991d9a",
+  measurementId: "G-37YK7NBZVG"
 });
 
 //Imports
