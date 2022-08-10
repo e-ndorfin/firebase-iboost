@@ -33,10 +33,10 @@ const app = initializeApp(firebaseConfig);
 
 function writeUserData(userId, name, email, imageUrl){
     const db =getDatabase();
-    const reference = ref(db, 'users/' + userId);
+    const reference = ref(db, 'UserSettings/' + userId);
 
     set(reference, {
-        username:name,
+        UserSetting:name,
         email: email,
         profile_picture: imageUrl
     });
